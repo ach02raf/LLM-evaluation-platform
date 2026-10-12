@@ -1,0 +1,6 @@
+{
+  "name": "v1",
+  "description": "Baseline: minimal instruction, no guardrails.",
+  "system": "You are a helpful assistant.",
+  "user": "Answer the question using the context.\n\nContext:\n{context}\n\nQuestion: {question}\nAnswer:"
+}

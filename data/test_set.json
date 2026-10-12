@@ -1,0 +1,142 @@
+[
+  {
+    "id": "q01",
+    "question": "How many vacation days do full-time employees receive?",
+    "expected": "25 days",
+    "expected_source": "hr_vacation.md",
+    "category": "factual"
+  },
+  {
+    "id": "q02",
+    "question": "How many unused vacation days can be carried over to the next year?",
+    "expected": "5 days",
+    "expected_source": "hr_vacation.md",
+    "category": "factual"
+  },
+  {
+    "id": "q03",
+    "question": "How far in advance must vacation requests be submitted?",
+    "expected": "2 weeks",
+    "expected_source": "hr_vacation.md",
+    "category": "factual"
+  },
+  {
+    "id": "q04",
+    "question": "How many paid sick days do employees get per year?",
+    "expected": "10 days",
+    "expected_source": "hr_vacation.md",
+    "category": "factual"
+  },
+  {
+    "id": "q05",
+    "question": "After how many consecutive sick days is a medical certificate required?",
+    "expected": "3 days",
+    "expected_source": "hr_vacation.md",
+    "category": "factual"
+  },
+  {
+    "id": "q06",
+    "question": "How many weeks of paid parental leave does the primary caregiver receive?",
+    "expected": "16 weeks",
+    "expected_source": "hr_vacation.md",
+    "category": "factual"
+  },
+  {
+    "id": "q07",
+    "question": "How many days per week can employees work remotely?",
+    "expected": "3 days",
+    "expected_source": "remote_work.md",
+    "category": "factual"
+  },
+  {
+    "id": "q08",
+    "question": "What is the home office stipend for new employees?",
+    "expected": "€500",
+    "expected_source": "remote_work.md",
+    "category": "factual"
+  },
+  {
+    "id": "q09",
+    "question": "How many days per year can employees work from abroad?",
+    "expected": "20 days",
+    "expected_source": "remote_work.md",
+    "category": "factual"
+  },
+  {
+    "id": "q10",
+    "question": "Above what amount is a receipt mandatory for an expense?",
+    "expected": "€25",
+    "expected_source": "expenses.md",
+    "category": "factual"
+  },
+  {
+    "id": "q11",
+    "question": "What is the daily meal allowance on business trips?",
+    "expected": "€60 per day",
+    "expected_source": "expenses.md",
+    "category": "factual"
+  },
+  {
+    "id": "q12",
+    "question": "What is the maximum hotel price per night?",
+    "expected": "€150 per night",
+    "expected_source": "expenses.md",
+    "category": "factual"
+  },
+  {
+    "id": "q13",
+    "question": "What is the minimum password length?",
+    "expected": "14 characters",
+    "expected_source": "security.md",
+    "category": "factual"
+  },
+  {
+    "id": "q14",
+    "question": "Within how long must a security incident be reported?",
+    "expected": "1 hour",
+    "expected_source": "security.md",
+    "category": "factual"
+  },
+  {
+    "id": "q15",
+    "question": "How long is the probation period?",
+    "expected": "3 months",
+    "expected_source": "benefits.md",
+    "category": "factual"
+  },
+  {
+    "id": "q16",
+    "question": "What is the yearly learning budget per employee?",
+    "expected": "€1,200 per year",
+    "expected_source": "benefits.md",
+    "category": "factual"
+  },
+  {
+    "id": "q17",
+    "question": "What percentage of the health insurance premium does the company pay?",
+    "expected": "80%",
+    "expected_source": "benefits.md",
+    "category": "factual"
+  },
+  {
+    "id": "q18",
+    "question": "How much is the employee referral bonus?",
+    "expected": "€2,000",
+    "expected_source": "benefits.md",
+    "category": "factual"
+  },
+  {
+    "id": "q19",
+    "question": "What is the CEO's salary?",
+    "expected": "NOT_IN_DOCS",
+    "expected_source": null,
+    "category": "unanswerable"
+  },
+  {
+    "id": "q20",
+    "question": "Does the company offer stock options to employees?",
+    "expected": "NOT_IN_DOCS",
+    "expected_source": null,
+    "category": "unanswerable"
+  }
+]

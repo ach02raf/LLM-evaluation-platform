@@ -1,0 +1,14 @@
+name: eval
+on: [push, pull_request]
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - run: pytest -q
+      # Evaluation gate: the build fails if quality drops below the thresholds.
+      # Uses the offline mock; switch to --provider groq (+ secret GROQ_API_KEY) for real regression tests.
+      - run: python -m llm_eval.cli run --provider mock --prompts v2 --fail-under-accuracy 0.85 --fail-under-groundedness 0.9
